@@ -1,0 +1,155 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Biceps Fuel</title>
+</head>
+<body>
+  <header>
+    <div onclick="window.location.href='index.html'" class="banner"></div>
+  </header>
+  <nav>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#protein" id="proteinBtn">Proteins</a>
+      <a href="#bigGainers" id="bigGainerBtn">Big Mass Gainers</a>
+      <a href="#creatine" id="creatineBtn">Creatine & Pre-Workouts</a>
+      <a href="blogs.html">Blogs</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+  <main>
+    <section>  
+      <h1><span class="stylish-heading">Mass Gainers 1KG</span></h1>
+      <div class="product-container">
+        <div class="product">
+          <a href="./Products/product11.html">  
+            <img src="./images/anabolic mass gainer.jpg" alt="Product 1">
+          </a>
+          <h3>Anabolic Mass Gainer</h3>
+          <p class="price">Rs. 1899</p>
+          <div class="buttons">
+            <button class="buy-now"><a href="./Products/product11.html">Buy Now</a></button>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="protein">   
+      <h1><span class="stylish-heading">Proteins</span></h1>
+      <div class="product-container">
+        <div class="product">
+          <a href="./Products/product12.html"> 
+            <img src="./images/labrada iso whey.jpg" alt="Product 1">
+          </a>
+          <h3>Labrada ISO Whey Protein (5 lbs)</h3>
+          <p class="price">Rs. 19000</p>
+          <div class="buttons">
+            <button class="buy-now"><a href="./Products/product12.html">Buy Now</a></button>
+          </div>
+        </div>
+        <div class="product">
+          <a href="./Products/product15.html"> <!-- Add the link for the product details page -->
+            <img src="./images/op whey protein whey standard 2.27kg.jpg" alt="Product 1">
+          </a>
+          <h3>Whey protein gold standard by optimum nutrition  (5 lbs)</h3>
+          <p class="price">Rs. 26500</p>
+          <div class="buttons">
+            <button class="buy-now"> <a href="./Products/product15.html">Buy Now</a></button>
+            <!--  <button class="add-to-cart">Add to Cart</button> -->
+          </div>
+        </div>
+        <div class="product">
+          <a href="./Products/product14.html"> <!-- Add the link for the product details page -->
+            <img src="./images/nitrol tech whey protein.jpg" alt="Product 1">
+          </a>
+          <h3>Nitro tech Whey Protein  (2 lbs)</h3>
+          <p class="price">Rs. 12000</p>
+          <div class="buttons">
+            <button class="buy-now"> <a href="./Products/product14.html">Buy Now</a></button>
+            <!--  <button class="add-to-cart">Add to Cart</button> -->
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="bigGainers">
+      <h1><span class="stylish-heading">Big Size Mass Gainers</span></h1>
+      <div class="product-container">
+        <div class="product">
+          <a href="./Products/product16.html"> 
+            <img src="./images/anabolic mass gainer 3kg.jpg" alt="Product 1">
+          </a>
+          <h3>Anabolic Mass Gainer (3 KG)</h3>
+          <p class="price">Rs. 14000</p>
+          <div class="buttons">
+            <button class="buy-now"><a href="./Products/product16.html">Buy Now</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="creatine">  
+      <h1><span class="stylish-heading">Pre-Workout and Creatine</span></h1>
+      <div class="product-container">
+        <div class="product">
+          <a href="./Products/product25.html"> 
+            <img src="./images/cell tech creatine by muscletech.jpg" alt="Product 1">
+          </a>
+          <h3>Cell Tech Creatine Monohydrate</h3>
+          <p class="price">Rs. 8000</p>
+          <p><b>Flavour: Fruit Punch</b></p>
+          <div class="buttons">
+            <button class="buy-now"><a href="./Products/product25.html">Buy Now</a></button>
+          </div>
+        </div> 
+      </div>
+    </section>
+  </main>
+
+  <div class="scroll-to-top" id="backToTop">
+   <h2>
+    <strong>
+
+      ↑
+    </strong>
+   </h2> 
+  </div>
+
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="https://www.facebook.com/profile.php?id=61552141982163" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.youtube.com/channel/UC1s551-QzFWP1WmpFKcy4qQ" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.instagram.com/bicepsfuel/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+        
+     </div>
+    <div class="footer-links">
+   
+      <a href="#" id="backToTop" class="foot">Back to Top</a>
+      <span class="divider" style="color: rgba(0, 0, 0, 0.247);">|</span>
+
+      <a href="privacy&policy.html" class="foot">Privacy & Policies</a>
+    </div>
+  </footer> 
+
+  <script>
+      document.getElementById("backToTop").addEventListener("click",()=>
+      {
+        window.scrollTo({
+          top:0,
+          behavior:"smooth"
+        })
+        
+      })
+  </script>
+</body>
+</html> 

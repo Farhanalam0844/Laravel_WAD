@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy&Policies-Biceps Fuel</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="icon" type="image/png"  href="./favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+        .container{
+            padding: 2rem 3rem;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div onclick="()=>{
+          window.location.href='index.html'
+        }" class="banner"></div>
+</header>
+    <nav>
+        <div class="topnav" id="myTopnav">
+          <a href="#home" onclick="handleIndex()" class="active">Home</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+      <script>
+        function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+      }
+      </script>    
+      
+      <!-- script of protein section  -->
+      <script>
+            function handleIndex(){
+                  window.location.href="index.html";
+                }
+              
+      </script>
+    <!-- script for home button -->
+    <!-- <script>
+        document.querySelector(".active").addEventListener("mouseover",()=>
+        {
+            document.querySelector(".active").innerHTML="Back to main page"
+        })
+        document.querySelector(".active").addEventListener("mouseout",()=>
+        {
+            document.querySelector(".active").innerHTML="Home"
+        })
+    </script> -->
+
+    <div class="container">
+        <h1>Privacy Policy</h1>
+
+        <p>Your privacy is important to us. It is our policy to respect your privacy regarding any information we may collect from you across our website.</p>
+
+        <h2>Information We Collect</h2>
+        <p>We only collect information about you if we have a reason to do so. For example, to provide our services, to communicate with you, or to make our services better.</p>
+
+        <h2>How We Use Your Information</h2>
+        <p>We use the information we collect in various ways, including:</p>
+        <ul>
+            <li>Providing, operating, and maintaining our website.</li>
+            <li>Improving, personalizing, and expanding our website.</li>
+            <li>Understanding and analyzing how you use our website.</li>
+        </ul>
+
+        <h2>Security</h2>
+        <p>The security of your personal information is important to us, but remember that no method of transmission over the Internet or method of electronic storage is 100% secure.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions about our Privacy Policy, please contact us via  <a href="mailto:bicepsfuel@gmail.com">Email</a> </p>
+
+        <p>This privacy policy was last updated on Feburary 30, 2022.</p>
+    </div>
+</body>
+</html>
